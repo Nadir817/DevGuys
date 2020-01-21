@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://nadir817:nader817@devcluster-ffcdb.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtToken": "myscrettoken"
+}
