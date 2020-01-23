@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://nadir817:nader817@devcluster-ffcdb.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtToken": "myscrettoken"
+  "jwtToken": "myscrettoken",
+  "githubClientId": "71605c37adcc43cafba9",
+  "githubSecret": "10737103049e3eb47fdb0e195cccce1e1aa56c68"
 }
