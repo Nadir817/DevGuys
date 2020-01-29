@@ -25,7 +25,6 @@ const EditProfile = ({
     youtube: "",
     instagram: ""
   });
-
   const [socialInput, setSocialInput] = useState(false);
 
   useEffect(() => {
@@ -45,7 +44,7 @@ const EditProfile = ({
       youtube: loading || !profile.social ? "" : profile.social.youtube,
       instagram: loading || !profile.social ? "" : profile.social.instagram
     });
-  }, [loading]);
+  }, [loading, getCurrentProfile]);
 
   const {
     company,
@@ -163,7 +162,7 @@ const EditProfile = ({
             name="bio"
             value={bio}
             onChange={e => onChange(e)}
-          ></textarea>
+          />
           <small className="form-text">Tell us a little about yourself</small>
         </div>
 

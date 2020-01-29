@@ -74,6 +74,14 @@ img {
   color: var(--dark-color);
 }
 
+.cap {
+  text-transform: capitalize;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
 /* Padding */
 .p {
   padding: 0.5rem;
